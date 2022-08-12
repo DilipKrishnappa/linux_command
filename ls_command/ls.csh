@@ -49,7 +49,8 @@ echo ""
 set mainmenuinput = `head -1`
     while( !($mainmenuinput == ls))
       echo "${RED} whops! \
-Try again by typing the ${PURPLE} ls ${NC}" 
+Try again by typing the  ${PURPLE} ls command \
+${GREEN} you entered the wrong command ${NC}" 
      # ${NC}"
       echo "${PURPLE}Enter Command ${NC}:"
       set mainmenuinput = `head -1`
@@ -69,15 +70,15 @@ ${PURPLE} ls Command ${NC}"
 
 echo "${RED}---------------------------------------------------------------------------------------------------------------------------------------------- ${NC}"
 
-echo ""
+#echo ""
 
-echo "${PURPLE}Go back to directory,\
-where you clone the repository by using a command ${NC}"
-echo ""
-echo "${RED}cd - ${NC} "
+#echo "${PURPLE}Go back to directory,\
+#where you clone the repository by using a command ${NC}"
+#echo ""
+#echo "${RED}cd - ${NC} "
 
 
-echo ""
-echo "${RED}------------------------------------------------------------------------------------------------    --------- ${NC}"
-
+#echo ""
+#echo "${RED}------------------------------------------------------------------------------------------------    --------- ${NC}"
+cd -
 
